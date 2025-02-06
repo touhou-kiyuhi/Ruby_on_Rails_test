@@ -3,7 +3,8 @@ Ruby on Rails test
 ---
 ## 更新日誌
 * 2025/02/06
-    * **利用 `rails new new_project (rails new new_project --skip-git)` 在 test_code 建立 new_project (without git) 測試 Ruby on Rials**
+    * **利用 `rails new new_project (rails new new_project --skip-git)` 建立 new_project (without git) 測試 Ruby on Rials**
+    * **在 new_project 利用 `rails server (rails s)` 可執行專案<br> 更換成自己的首頁：<br> 利用 `rails g controller home` 可建立 app/controllers/home_controller.rb 並更新 config/routes.rb 、 app/controllers/home_controller.rb ，新增 app/views/home/index.html.erb 編輯內容為 Hello World!**
 ---
 ## 參考資料
 * [ASCII可顯示字元（共95個）](https://zh.wikipedia.org/zh-tw/ASCII#%E5%8F%AF%E6%98%BE%E7%A4%BA%E5%AD%97%E7%AC%A6)
